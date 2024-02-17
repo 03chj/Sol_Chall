@@ -1,0 +1,67 @@
+.Navbar{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 70px;
+}
+
+.Navbar button{
+  position: absolute;
+  width: 10px;
+  top: 32%;
+  left: 2%;
+  background-color: rgb(255,255,255);
+  border: 0;
+}
+
+
+
+.answer{
+  margin: 20px;
+}
+
+.answer h2{
+}
+
+.answer button{
+  width: 95%;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: grey;
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+
+.answer select{
+  border-style: groove;
+  width: max-content;
+}
+
+footer button{
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: black;
+  border-style: hidden;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
